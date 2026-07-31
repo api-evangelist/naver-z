@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/@zep.us/zep-script-cli
+name: ZEP Script CLI
+summary: >-
+  First-party command-line tool for NAVER Z's ZEP scripting platform. Used by
+  creators to scaffold, run locally, and publish ZEP Scripts (JavaScript apps and
+  mini-games that run inside ZEP virtual spaces). Distributed on npm under the
+  official @zep.us scope (maintainer: zepdevelopers).
+package: "@zep.us/zep-script-cli"
+docs: https://docs.zep.us/zep-script/zep-script-guide
+binary: zep-script
+install:
+  - method: npm
+    command: npm install -g @zep.us/zep-script-cli
+related_packages:
+  - zep-script
+  - "@zep.us/zep-script-template"
+  - "@zep.us/babel-plugin-zep-script"
+notes: >-
+  The CLI binary is catalogued in packages/naver-z-packages.yml. Command surface
+  is documented in the ZEP Script guide rather than enumerated here to avoid
+  asserting flags that were not verified from a published reference.

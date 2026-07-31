@@ -1,8 +1,28 @@
 aid: naver-z
 name: NAVER Z
-description: 'NAVER Z is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'NAVER Z Corporation is the South Korean metaverse subsidiary of NAVER,
+  headquartered in Seongnam, Gyeonggi Province, with additional offices in Los Angeles
+  and Tokyo. The company builds immersive digital experiences spanning ZEPETO, its
+  avatar-based metaverse and social app launched in 2018; ZEP, a spatial collaboration
+  and virtual-space platform launched in 2022; and Sticker.ly, a sticker creation
+  and sharing app launched in 2019. NAVER Z''s public developer surface is ZEP Script:
+  a first-party JavaScript SDK, CLI, and build toolchain (published on npm under the
+  official @zep.us scope) that creators use to build in-space apps and mini-games,
+  documented in the ZEP Guidebook at docs.zep.us with a dedicated ZEP Script API
+  reference. NAVER Z publishes no REST/OpenAPI web API or OAuth program; ZEPETO
+  Studio remains a Unity-based content-creation tool rather than an API surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://naverz-corp.com/img/pc/img_og.png
 url: https://raw.githubusercontent.com/api-evangelist/naver-z/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +32,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Metaverse
+- Avatar
+- Social
+- Gaming
+- Mobile
+- Developer Tools
+- SDK
+- Scripting
 apis: []
+common:
+- type: DomainSecurity
+  url: security/naver-z-domain-security.yml
+- type: Website
+  url: https://naverz-corp.com/
+- type: HelpCenter
+  url: https://support.zepeto.me/
+- type: Packages
+  url: packages/naver-z-packages.yml
+- type: SDKs
+  url: packages/naver-z-packages.yml
+- type: CLI
+  url: cli/naver-z-cli.yml
+- type: Documentation
+  url: https://docs.zep.us/
+- type: APIReference
+  url: https://docs.zep.us/zep-script/zep-script-api
+- type: GettingStarted
+  url: https://docs.zep.us/zep-script/zep-script-guide
+- type: Pricing
+  url: https://zep.us/pricing
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

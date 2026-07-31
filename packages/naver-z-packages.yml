@@ -1,0 +1,50 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/~zepdevelopers
+notes: >-
+  NAVER Z's ZEP product publishes a first-party JavaScript developer surface for
+  building in-space apps/mini-games ("ZEP Script"). Packages are published on npm
+  under the @zep.us scope and the zepdevelopers maintainer account, so they are
+  treated as official. ZEPETO (the other NAVER Z product) ships no public client
+  library — ZEPETO Studio is a Unity-based content-creation tool, not a package.
+packages:
+  - language: javascript
+    registry: npm
+    name: zep-script
+    url: https://www.npmjs.com/package/zep-script
+    install: npm install zep-script
+    version: 0.16.5
+    description: ZEP Script API for ZEP app
+    publisher: zepdevelopers
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@zep.us/zep-script-cli"
+    url: https://www.npmjs.com/package/@zep.us/zep-script-cli
+    install: npm install -g @zep.us/zep-script-cli
+    description: Command-line tool for scaffolding, running and publishing ZEP Scripts
+    publisher: zepdevelopers
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@zep.us/babel-plugin-zep-script"
+    url: https://www.npmjs.com/package/@zep.us/babel-plugin-zep-script
+    install: npm install --save-dev @zep.us/babel-plugin-zep-script
+    description: Babel plugin used by the ZEP Script build toolchain
+    publisher: zepdevelopers
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@zep.us/zep-script-template"
+    url: https://www.npmjs.com/package/@zep.us/zep-script-template
+    install: npm install @zep.us/zep-script-template
+    description: Starter template for a new ZEP Script project
+    publisher: zepdevelopers
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@zep.us/zep-script-template-react"
+    url: https://www.npmjs.com/package/@zep.us/zep-script-template-react
+    install: npm install @zep.us/zep-script-template-react
+    description: React starter template for a ZEP Script project
+    official: true
