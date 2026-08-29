@@ -11,6 +11,17 @@ description: 'NAVER Z Corporation is the South Korean metaverse subsidiary of NA
   documented in the ZEP Guidebook at docs.zep.us with a dedicated ZEP Script API
   reference. NAVER Z publishes no REST/OpenAPI web API or OAuth program; ZEPETO
   Studio remains a Unity-based content-creation tool rather than an API surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
